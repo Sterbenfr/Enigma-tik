@@ -1,5 +1,4 @@
-import NavBar from '../app/components/NavBar'
-
+import NavBar from './components/NavBar'
 import Contenu1 from '../app/components/Contenu1'
 import FooterHome from '../app/components/FooterHome'
 
