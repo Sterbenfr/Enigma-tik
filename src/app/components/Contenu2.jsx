@@ -1,26 +1,26 @@
 import Image from 'next/image'
-import imageContenu1 from '../../../public/image/cc.jpeg'
+import logonavbar from '../../../public/image/lille.png'
 
 const Contenu2 = () => {
   return (
-    <section className='hero'>
-      <div className='hero-content flex-col md:flex-row'>
+    <div className='hero py-8'>
+      <div className='hero-content flex-col lg:flex-row-reverse'>
         <Image
-          src={imageContenu1}
+          src={logonavbar}
           alt="Description de l'image"
-          className='w-full md:w-1/2'
+          className='max-w-3xl rounded-lg shadow-2xl md: w-full'
         />
-        <div className='w-full md:w-1/2'>
+        <div className='text-black'>
           <h1 className='text-5xl font-bold'>Box Office News!</h1>
           <p className='py-6'>
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className='btn btn-primary'>Get Started</button>
+          <button className='btn btn-primary bg-black'>Get Started</button>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
