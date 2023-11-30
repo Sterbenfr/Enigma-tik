@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "axios": "^1.6.2",
     "bcrypt": "^5.1.1",
