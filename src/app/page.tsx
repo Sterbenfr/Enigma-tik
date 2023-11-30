@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar'
-
+import Partie from './components/TabPartie'
 import Contenu1 from './components/Contenu1'
 import Contenu2 from './components/Contenu2'
 import Contenu from './components/Contenu'
