@@ -18,16 +18,14 @@ const Login = () => {
             />
           </div>
           <h1 className='text-5xl font-bold text-center'>ENIGMATIK!</h1>
-          <p className='py-6 text-center'>
-            Dont have an account
-            <Link href='/signin' className='link link-hover'>
-              Sign up here
-            </Link>
-          </p>
-        </div>
-
-        <div className='card shrink-0 w-full h-full max-w-2xl shadow-2xl bg-white '>
-          <FormLogin />
+          <p className='py-6 text-center pt-16'>Are you Ready ??????</p>
+          <div className='flex justify-center items-center pt-4'>
+            <button className='btn btn-primary bg-black w-full  text-2xl'>
+              <Link href='/partie' className='link link-hover'>
+                Starting Game
+              </Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>
