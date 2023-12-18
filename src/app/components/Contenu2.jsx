@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logonavbar from '../../../public/image/lille.png'
+import ButtonPartie from './ButtonPartie'
 
 const Contenu2 = () => {
   return (
@@ -17,7 +18,8 @@ const Contenu2 = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className='btn btn-primary bg-black'>Get Started</button>
+          <ButtonPartie />
+          {/*<button className='btn btn-primary bg-black'>Get Started</button>*/}
         </div>
       </div>
     </div>
