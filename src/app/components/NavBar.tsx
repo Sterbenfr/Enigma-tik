@@ -11,8 +11,8 @@ const NavBar = () => {
           <Image
             src={logonavbar}
             alt="Description de l'image"
-            width={35}
-            height={35}
+            width={50}
+            height={50}
             className=' border-white rounded-sm shadow-2xl'
           />
         </a>

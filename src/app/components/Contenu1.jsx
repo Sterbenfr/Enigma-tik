@@ -11,7 +11,7 @@ const Contenu1 = () => {
           ipsum! Iste, iure. Aliquam.
         </p>
       </div>
-      <ul className='steps '>
+      <ul className='steps mb-28'>
         <li className='step step-primary '>créer votre compte</li>
         <li className='step step-primary'>Se Connecter</li>
         <li className='step step-primary'>choisir ton équipe </li>
