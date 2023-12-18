@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import logonavbar from '../../../public/image/LogoBDEDark.png'
-import Link from 'next/link'
 import TabPartie from '../components/TabPartie'
 
 const Partie = () => {
@@ -18,9 +17,7 @@ const Partie = () => {
             />
           </div>
           <h1 className='text-5xl font-bold text-center'>ENIGMATIK!</h1>
-          <p className='py-6 text-center'>
-            Tes Enigmes :
-          </p>
+          <p className='py-6 text-center'>Tes Enigmes :</p>
         </div>
 
         <div className='card shrink-0 w-full bg-white '>
