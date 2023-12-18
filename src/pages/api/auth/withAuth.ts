@@ -19,6 +19,7 @@ export const withAuth = (
   handler: (req: NextApiRequest, res: NextApiResponse) => void,
 ) => {
   return async (req: NextApiRequest, res: NextApiResponse) => {
+    console.log('withAuth')
     try {
       const tokenPayload: TokenPayload = verifyToken(req)
       const equipe: Equipe = await getEquipeById(tokenPayload.userId)
