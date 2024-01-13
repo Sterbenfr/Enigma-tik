@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
-import { getDB } from '../getDB' // Replace with the actual path to your getDB hook
+import { getDB } from '../getDB'
 
 export default async function handler(
   req: NextApiRequest,
